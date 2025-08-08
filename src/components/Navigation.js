@@ -9,7 +9,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow z-50 bg-black/50 backdrop-blur-md">
+    <nav className="fixed top-0 left-0 w-full shadow z-50 bg-black/50 backdrop-blur-md">
       <div className="max-w-3xl mx-auto flex justify-center gap-8 py-4">
         {['me', 'skills', 'experience', 'projects', 'education', 'contact'].map((section) => (
           <button
