@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.6ea613da.css",
-    "main.js": "/my-portfolio/static/js/main.3a054682.js",
+    "main.css": "/my-portfolio/static/css/main.d3fbd805.css",
+    "main.js": "/my-portfolio/static/js/main.e61312e5.js",
     "static/js/453.68f3882e.chunk.js": "/my-portfolio/static/js/453.68f3882e.chunk.js",
+    "static/media/thumb-cusine.jpg": "/my-portfolio/static/media/thumb-cusine.dffe005620155ac34080.jpg",
+    "static/media/thumb-temple.jpg": "/my-portfolio/static/media/thumb-temple.33a49f5a1405fcfba806.jpg",
+    "static/media/thumb-archi.jpg": "/my-portfolio/static/media/thumb-archi.edbd2433a247ab8d73ea.jpg",
+    "static/media/thumb-ayurveda.jpg": "/my-portfolio/static/media/thumb-ayurveda.b915080d61ea3b3a56bc.jpg",
+    "static/media/thumb-kalari.jpg": "/my-portfolio/static/media/thumb-kalari.529f2ac47067bf7d40be.jpg",
+    "static/media/thumb-yoga.jpg": "/my-portfolio/static/media/thumb-yoga.6a66a87514f6ccf06ca0.jpg",
     "static/media/Karthik-v-8129198487.pdf": "/my-portfolio/static/media/Karthik-v-8129198487.d3f289ad977fe82efa33.pdf",
     "index.html": "/my-portfolio/index.html",
-    "main.6ea613da.css.map": "/my-portfolio/static/css/main.6ea613da.css.map",
-    "main.3a054682.js.map": "/my-portfolio/static/js/main.3a054682.js.map",
+    "main.d3fbd805.css.map": "/my-portfolio/static/css/main.d3fbd805.css.map",
+    "main.e61312e5.js.map": "/my-portfolio/static/js/main.e61312e5.js.map",
     "453.68f3882e.chunk.js.map": "/my-portfolio/static/js/453.68f3882e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ea613da.css",
-    "static/js/main.3a054682.js"
+    "static/css/main.d3fbd805.css",
+    "static/js/main.e61312e5.js"
   ]
 }
