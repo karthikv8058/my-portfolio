@@ -13,7 +13,7 @@ const projects = [
     title: "ID Hub – TEC (WESTPAC)",
     role: "UI Developer",
     description: "Developed UI for TEC classification of non-individual accounts based on FATCA/CRS.",
-    tools: ["React.js"],
+    tools: ["React.js", "Redux", "Jest", "Testing-library", "Saga"],
     responsibilities: [
       "Automated ATO submissions.",
       "Created advanced components for data collection."
