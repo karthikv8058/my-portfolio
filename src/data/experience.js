@@ -1,7 +1,7 @@
 const experience = [
   {
     company: "Infosys",
-    role: "Senior Consultant – React Front-End Developer",
+    role: "Senior Consultant – React UI Developer",
     duration: "May 13, 2024 – Present",
     description: [
       "Leading React UI development in client-facing projects.",
