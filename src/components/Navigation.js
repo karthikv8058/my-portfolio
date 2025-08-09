@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const sections = ['me', 'skills', 'experience', 'projects', 'education', 'contact'];
+  const sections = ['me', 'skills', 'experience', 'projects', 'live Works', 'education', 'contact'];
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
@@ -12,9 +12,9 @@ const Navigation = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full shadow z-50 bg-black/50 backdrop-blur-md">
-      <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-end">
         {/* Brand / Logo */}
-        <div className="text-yellow-300 font-bold text-lg">Karthik V</div>
+        {/* <div className="text-yellow-300 font-bold text-lg">Karthik V</div> */}
 
         {/* Hamburger button for mobile */}
         <button
@@ -39,7 +39,7 @@ const Navigation = () => {
 
         {/* Menu items */}
         <div
-          className={`flex-col md:flex md:flex-row md:static absolute left-0 w-full md:w-auto bg-black/80 md:bg-transparent backdrop-blur-md md:backdrop-blur-none transition-all duration-300 ease-in-out ${
+          className={`flex-col md:flex md:flex-row md:static absolute left-0 w-full bg-black/80 md:bg-transparent backdrop-blur-md md:backdrop-blur-none transition-all duration-300 ease-in-out ${
             isOpen ? 'top-14 opacity-100' : 'top-[-300px] opacity-0 md:opacity-100'
           }`}
         >
@@ -50,7 +50,7 @@ const Navigation = () => {
                 scrollToSection(section);
                 setIsOpen(false);
               }}
-              className="block md:inline-block text-yellow-300 font-semibold hover:text-blue-900 transition-colors duration-200 capitalize hover:bg-gray-100 rounded px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 w-full text-left md:text-center"
+              className="block md:inline-block text-yellow-300 font-semibold hover:text-blue-900 transition-colors duration-200 capitalize hover:bg-gray-100 rounded px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 w-full text-center md:text-center"
             >
               {section}
             </button>
