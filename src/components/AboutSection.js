@@ -1,26 +1,12 @@
 import React from 'react';
 import Section from './Section';
-import { useState, useEffect } from 'react';
-// Make sure the file exists at this path, or update the path below if it's located elsewhere
 import resumePDF from '../data/Karthik-v-8129198487.pdf';
-
-const typingText = "I'm Karthik V";
-const typingSpeed = 200; // ms per character
+import useTypewriter from '../hooks/useTypewriter';
 
 const AboutSection = React.forwardRef((props, ref) => {
-    const [displayedText, setDisplayedText] = useState('');
 
-    useEffect(() => {
-        let currentIndex = 0;
-        const interval = setInterval(() => {
-            setDisplayedText(typingText.slice(0, currentIndex + 1));
-            currentIndex++;
-            if (currentIndex === typingText.length) {
-                clearInterval(interval);
-            }
-        }, typingSpeed);
-        return () => clearInterval(interval);
-    }, []);
+    const words = ["Karthik V", "React Developer", "UI Specialist"];
+    const displayedText = useTypewriter(words);
 
     return (
         <Section id="me" title="" ref={ref}>
