@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const sections = ['me', 'skills', 'experience', 'projects', 'live Works', 'education', 'contact'];
+  const sections = ['me', 'skills', 'experience', 'projects', 'liveworks', 'education', 'contact'];
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
